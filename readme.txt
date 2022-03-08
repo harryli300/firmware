@@ -1,1 +1,1 @@
-V1.1,https://github.com/alenhsu038/firmware/releases/download/V1.0/lks7688.img,https://github.com/alenhsu038/firmware/releases/download/V1.0/sha256.signed
+https://github.com/alenhsu038/firmware/releases/download/V1.1/lks7688_V1.1.img,https://github.com/alenhsu038/firmware/releases/download/V1.1/sha256.signed
