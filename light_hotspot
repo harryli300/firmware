@@ -1,1 +1,2 @@
-https://github.com/alenhsu038/firmware/releases/download/V0.3/lks7688_V0.4.img,https://github.com/alenhsu038/firmware/releases/download/V0.3/lks7688_V0.4.sha256
+CFG_FwDlPath=https://github.com/alenhsu038/firmware/releases/download/V0.3/lks7688_V0.4.img
+CFG_ShaDlPath=https://github.com/alenhsu038/firmware/releases/download/V0.3/lks7688_V0.4.sha256
