@@ -39,22 +39,22 @@ Customer service: Email and Discord channel.
 We will replace or repair the product free of charge if the defects are caused due to reasons related to raw materials, designation, or manufacturing process. For repair cases, the repair is supposed to be completed within 25 working days after we received the return package. For replacement cases, we will arrange the shipment in 7 working days after we receive the returned defective device package. For replacement parts cases, we will arrange the shipment in 7 working days after the tech support ticket is completed.
 
 ## Hardware Security Element (required)
-* The community is concerned about devices that can be easily hacked, specifically by copying their swarm_key files. Applications should include plan for how the devices will be secured. The approved security element is an ECC608. If you would like to use an alternative security element your HIP19 will require additional review, please email Dewi (christina@dewi.org).
-* Are you using an ECC608. Yes or No?
-* Encrypted/locked-down firmware. Yes or No? 
-* Encrypted storage of the miner swarm_key, either via disk encryption or hardware measures. Yes or No?
-* Encrypted buses, potting and other anti-tampering measures. Yes or No?
-* Willingness to submit a prototype for audit, and sharing those audit results publicly (pass or fail) Yes or No?
+* Our light hotspots designed for Helium will support ECC chip base on ATECC608, to increase the security of the swarm key.
+* Are you using an ECC608. Yes or No? Yes
+* Encrypted/locked-down firmware. Yes or No? No
+* Encrypted storage of the miner swarm_key, either via disk encryption or hardware measures. Yes or No? Yes
+* Encrypted buses, potting and other anti-tampering measures. Yes or No? No
+* Willingness to submit a prototype for audit, and sharing those audit results publicly (pass or fail) Yes or No? Yes
 
-## Hardware Information (required). Please provide detailed hardware designs, including relevant parts.
-Evidence of a functioning prototype - photos/videos. Renderings are OK but physical prototypes are much, much better. 
-* What are your plans for software setup and configuration for the devices?
-This would includes remote updates and the ability for hosts to change wifi settings, via Helium's official app or otherwise. 
-* Which security implementation (ECC608, TPM, TrustZone, other) are you using? 
-* Which LoRa chipset are you planning to use in your gateway? (i.e. SX1302, SX1303, etc, only list one) 
-We recommend you don't use the SX1301 in new designs. 
-* What is the CPU?
-* Other Hardware Specifications: 
+## Hardware Information (required). 
+* Which security (swarm) element are you using?
+ATECC608
+* Which LoRa chipset are you planning to use in your gateway (ie SX1302/03 & SX1250s or SX1301/08 & SX1255/57)?
+SX1302 & SX1250
+* Where are you sourcing your components from?
+We sourced the components from authorized component distributors and manufacturers
+* How many radio modules/ concentrators can you procure?
+We have secured 5,000 pcs radio module stock, we placed the component PO to our supplier for 2022 demand
 
 ## Manufacturing Information (required)
 * Have you built and delivered radio hardware products before?
