@@ -40,29 +40,44 @@ We will replace or repair the product free of charge if the defects are caused d
 
 ## Hardware Security Element (required)
 * The community is concerned about devices that can be easily hacked, specifically by copying their swarm_key files. Applications should include plan for how the devices will be secured. The approved security element is an ECC608. If you would like to use an alternative security element your HIP19 will require additional review, please email Dewi (christina@dewi.org).
-* Are you using an ECC608. Yes or No?
+* Are you using an ECC608. Yes or No? 
+  * Yes, we use ATECC608 encryption chip the swarm_key.
 * Encrypted/locked-down firmware. Yes or No? 
-* Encrypted storage of the miner swarm_key, either via disk encryption or hardware measures. Yes or No?
-* Encrypted buses, potting and other anti-tampering measures. Yes or No?
-* Willingness to submit a prototype for audit, and sharing those audit results publicly (pass or fail) Yes or No?
+  * Not currently, working on this for future releases
+* Encrypted storage of the miner swarm_key, either via disk encryption or hardware measures. 
+  * Yes or No? Yes, we use ATECC608 encryption chip the swarm_key, and key is securely provisioned during manufacturing.
+* Encrypted buses, potting and other anti-tampering measures. 
+  * Yes or No? No Encrypted buses or potting.
+* Willingness to submit a prototype for audit, and sharing those audit results publicly (pass or fail) Yes or No? 
+  * Yes, we are willing to submit a prototype for audit and share results publicly.
 
 ## Hardware Information (required). Please provide detailed hardware designs, including relevant parts.
 Evidence of a functioning prototype - photos/videos. Renderings are OK but physical prototypes are much, much better. 
 * What are your plans for software setup and configuration for the devices?
-This would includes remote updates and the ability for hosts to change wifi settings, via Helium's official app or otherwise. 
+  * We develop our own software App for setup and configuration of the devices
 * Which security implementation (ECC608, TPM, TrustZone, other) are you using? 
+  * ATECC608
 * Which LoRa chipset are you planning to use in your gateway? (i.e. SX1302, SX1303, etc, only list one) 
+  * SX1302 + SX1250
 We recommend you don't use the SX1301 in new designs. 
 * What is the CPU?
+  * MIPS24Kec
 * Other Hardware Specifications: 
+  * See above
 
 ## Manufacturing Information (required)
-* Have you built and delivered radio hardware products before?
+* Have you built and delivered radio hardware products before? 
+  * Yes
 * Have you built gateways before? 
+  * Yes
 * How many gateways did you make? 
-* If you have not built gateways before, are you using a third party manufacturer? This is the single largest risk with most hardware ventures. If possible please provide information about your manufacturing partners and supply chain.
+  * Over a few million units
+* If you have not built gateways before, are you using a third party manufacturer? This is the single largest risk with most hardware ventures. If possible please provide information about your manufacturing partners and supply chain. 
+  * We are back one of the largest manufactuer in the world with $20 billions in revenue 
 * Where are you sourcing your components from? 
+  * Directly from component manufactuers or via qualified distributors
 * How many radio modules/ concentrators can you procure? 
+  * Around 5,000 per month
 
 ## Proof of Identity
 Identification from the [government website](https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do?disj=B021A9B43182D1301086BF735ABEB68B&fhl=en)
